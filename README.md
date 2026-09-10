@@ -9,12 +9,14 @@ Notes on a possible mobile arcade basketball trailer business in the Flathead Va
 | File | What's in it |
 |---|---|
 | [STARTUP-COSTS.md](STARTUP-COSTS.md) | Full cost breakdown with sourcing links — trailer, mods, build-out, power, branding, business setup, insurance, payback math |
-| [ARCADE-MACHINES.md](ARCADE-MACHINES.md) | Three sourcing routes for the four shooting stations: buy US, buy China, or Chinese electronics with local fabrication |
-| [hardware/8020-BOM.md](hardware/8020-BOM.md) | Full 80/20 parts list with live pricing for the see-through lane divider panels. Metal only — everything below the ball return is wood |
+| [ARCADE-MACHINES.md](ARCADE-MACHINES.md) | Three sourcing routes for the shooting stations: buy US, buy China, or Chinese electronics with local fabrication |
+| [hardware/real-hoop-and-sensors.md](hardware/real-hoop-and-sensors.md) | Real basketballs and regulation rims, DIY shot detection, and the three trailer changes it forces. **Read this first — it drives everything else** |
+| [hardware/8020-BOM.md](hardware/8020-BOM.md) | 80/20 T-slot parts list with live pricing for the see-through lane dividers |
+| [hardware/keeklamp-BOM.md](hardware/keeklamp-BOM.md) | Kee Klamp parts list for the angled divider design, plus the cheap fence-framework alternative |
 
 ## The idea in one paragraph
 
-Four arcade basketball stations built into an 8.5 × 16 ft enclosed tandem trailer with a side that opens up. Rents for a few hours at a time to birthday parties, school events, festivals, and corporate picnics across Kalispell, Whitefish, Columbia Falls, Bigfork, Lakeside, and Somers. Concept exists elsewhere as a licensed package ([Hoop Trailer](https://hooptrailer.com/), $60,000 + $250/mo); this repo prices out building the same thing independently for roughly half that.
+Basketball stations built into an enclosed tandem trailer with a side that opens up. Rents for a few hours at a time to birthday parties, school events, festivals, and corporate picnics across Kalispell, Whitefish, Columbia Falls, Bigfork, Lakeside, and Somers. Concept exists elsewhere as a licensed package ([Hoop Trailer](https://hooptrailer.com/), $60,000 + $250/mo); this repo prices out building the same thing independently for roughly half that.
 
 ## Headline numbers
 
@@ -25,21 +27,25 @@ Four arcade basketball stations built into an 8.5 × 16 ft enclosed tandem trail
 
 ## Build approach
 
-Wood for everything below the ball-return line (ramp, framing, solid side panels). Metal only for the upper see-through zone, because players need to see the competitors to their left and right, and the ball cage can't be solid for the same reason. Three options priced for that metal, cheapest first:
+Wood below the ball-return line (ramp, framing, solid side panels). Metal only for the upper see-through zone, because players need to see the competitors to their left and right, and the ball cage can't be solid for the same reason.
 
-| Approach | 5 panels |
-|---|---|
-| Chain link fence framework | $600–1,200 |
-| Kee Klamp + welded wire | $1,500–2,500 |
-| [80/20 T-slot](hardware/8020-BOM.md) | $3,950–4,250 |
+Divider panels, angled top rail, five panels:
 
-## Biggest open questions
+| Approach | Cost | Weight |
+|---|---|---|
+| **Chain link fence framework** | **~$1,470** | ~500 lb |
+| [80/20 T-slot](hardware/8020-BOM.md) | ~$3,950 | ~350 lb |
+| [Kee Klamp](hardware/keeklamp-BOM.md) | ~$4,200 | ~545 lb |
 
-1. Real insurance quote — the widest unknown in the budget
-2. Whether Whitefish/Kalispell will actually book 45+ events in a six-month season
-3. Whether winter indoor bookings are real (this is the single biggest lever on ROI)
-4. Fabrication quotes on the gullwing doors
-5. Price on 80/20's pre-framed machine guard panels — could cut the divider cost by half
+Build the prototype in fence pipe. Upgrade later if the finished look justifies it.
+
+## Open decisions, in priority order
+
+1. **Ball size.** Mini / size 5 / size 7. Drives trailer height, lane count, and both divider BOMs. Nothing else can be finalized first.
+2. **Trailer interior height.** 7 ft works for arcade balls. Real size 7 balls need 8 ft or adults dunk on it.
+3. **Lane count.** Four arcade lanes fit a 16 ft box. Four real-hoop lanes do not.
+4. **Insurance quote.** Widest unknown in the budget.
+5. Whether winter indoor bookings are real — biggest single lever on ROI.
 
 ## Caveats
 
