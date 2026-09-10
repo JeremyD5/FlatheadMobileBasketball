@@ -10,6 +10,7 @@ Notes on a possible mobile arcade basketball trailer business in the Flathead Va
 |---|---|
 | [STARTUP-COSTS.md](STARTUP-COSTS.md) | Full cost breakdown with sourcing links — trailer, mods, build-out, power, branding, business setup, insurance, payback math |
 | [ARCADE-MACHINES.md](ARCADE-MACHINES.md) | Three sourcing routes for the four shooting stations: buy US, buy China, or Chinese electronics with local fabrication |
+| [hardware/8020-BOM.md](hardware/8020-BOM.md) | Full 80/20 parts list with live pricing for the see-through lane divider panels. Metal only — everything below the ball return is wood |
 
 ## The idea in one paragraph
 
@@ -22,12 +23,23 @@ Four arcade basketball stations built into an 8.5 × 16 ft enclosed tandem trail
 - **Season revenue (base case, May–Oct):** ~$27,000 on 45 bookings
 - **Payback:** roughly 1.5–2 seasons
 
+## Build approach
+
+Wood for everything below the ball-return line (ramp, framing, solid side panels). Metal only for the upper see-through zone, because players need to see the competitors to their left and right, and the ball cage can't be solid for the same reason. Three options priced for that metal, cheapest first:
+
+| Approach | 5 panels |
+|---|---|
+| Chain link fence framework | $600–1,200 |
+| Kee Klamp + welded wire | $1,500–2,500 |
+| [80/20 T-slot](hardware/8020-BOM.md) | $3,950–4,250 |
+
 ## Biggest open questions
 
 1. Real insurance quote — the widest unknown in the budget
 2. Whether Whitefish/Kalispell will actually book 45+ events in a six-month season
 3. Whether winter indoor bookings are real (this is the single biggest lever on ROI)
 4. Fabrication quotes on the gullwing doors
+5. Price on 80/20's pre-framed machine guard panels — could cut the divider cost by half
 
 ## Caveats
 
